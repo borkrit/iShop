@@ -12,10 +12,11 @@ export default function ProductCard({slug,title,price}) {
   return (
     <div  className={style.product} >
       <div className={style.product__container}>
-        <Image src={productImg} alt='logo product' />
+      <Link href={`/${slug}`}>
+         <Image src={productImg} alt='logo product' />
         <p className="title">{title}</p>
         <p className="price">${price}</p>
-        <Link href={`/${slug}`} >Show more </Link>
+        Show more </Link>
       </div>
     </div>
   )

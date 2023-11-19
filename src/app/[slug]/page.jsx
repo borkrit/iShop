@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
 import products from '../data'
-import Link from 'next/link'
 import  {useRouter}  from 'next/navigation';
+
 
 
  const SingleCard =(props)=> {
@@ -14,13 +14,16 @@ import  {useRouter}  from 'next/navigation';
   };
 
   return (
+   
     <div>
+    
       <p> {product.title}</p>
       <p> {product.price}</p>
       <button onClick={goBack}>
       Back
     </button>
     </div>
+    
   )
 }
 

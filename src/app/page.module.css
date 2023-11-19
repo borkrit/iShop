@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  max-width: calc(100% - 66px*2);
+        margin: 0 auto;
   min-height: 100vh;
 }
 
@@ -226,4 +227,12 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+
+.products__lists{
+  display: flex;
+  flex-wrap: wrap;
+  gap:47px 32px ;
+  justify-content: center;
 }
