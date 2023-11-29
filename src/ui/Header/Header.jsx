@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header  className={style.header} >
       <div className={style.header__container}>
-        <Link href={'/'} >
+        <Link href="/ß" >
       <Image src={logo} alt='logo' /></Link>
       <Image src={shoppingCard} alt='logo' />
       </div>
